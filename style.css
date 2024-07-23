@@ -1,0 +1,45 @@
+.calc {
+    display:flex;
+    flex-direction: column;
+}
+
+.display {
+    display: flex;
+    flex: auto;
+}
+
+.displayText {
+    font-size: 64px;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 384px;
+}
+
+button {
+    flex: 1;
+    font-size: 36px;
+    aspect-ratio: 1/1;
+}
+/*
+.numbers {
+
+}
+
+.operands {
+
+}
+
+.special {
+
+}
+*/
