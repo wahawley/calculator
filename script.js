@@ -135,8 +135,8 @@ function buttons (){
         }
         //equals button
         else if (input=="=") {
-            secondNum=displayValue.join("");
             if (firstNum!==undefined && secondNum!==undefined && operator!==undefined) {
+                secondNum=Number(displayValue.join(""));
                 operate(firstNum,secondNum,operator);
                 if (isFinite(result)) {
                     firstNum=result;
